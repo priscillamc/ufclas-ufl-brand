@@ -1,0 +1,28 @@
+/*!
+Theme Name: UF CLAS UFL Brand
+Theme URI: http://clas.ufl.edu/
+Author: Al Kirby
+Author URI: http://clas.ufl.edu/
+Description: WordPress child theme, based on the 2016 University of Florida Brand design.
+Version: 0.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ufclas-ufl-brand
+Build Date: 20160304
+Template: baskerville
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/*--------------------------------------------------------------
+ Parent theme styles
+--------------------------------------------------------------*/
+
+@import url("../baskerville/style.css");
+
+/*--------------------------------------------------------------
+ Branding Fonts
+--------------------------------------------------------------*/
+@import "fonts";

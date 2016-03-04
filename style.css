@@ -1,0 +1,152 @@
+/*!
+Theme Name: UF CLAS UFL Brand
+Theme URI: http://clas.ufl.edu/
+Author: Al Kirby
+Author URI: http://clas.ufl.edu/
+Description: WordPress child theme, based on the 2016 University of Florida Brand design.
+Version: 0.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ufclas-ufl-brand
+Build Date: 20160304
+Template: baskerville
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+/*--------------------------------------------------------------
+ Parent theme styles
+--------------------------------------------------------------*/
+@import url("../baskerville/style.css");
+/*--------------------------------------------------------------
+ Branding Fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'quadonheavy';
+  src: url("fonts/rene_bieder_-_quadon_heavy-webfont.eot");
+  src: url("fonts/rene_bieder_-_quadon_heavy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_quadon_heavy-webfont.woff") format("woff"), url("fonts/rene_bieder_-_quadon_heavy-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_quadon_heavy-webfont.svg#quadonheavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'quadonmedium';
+  src: url("fonts/rene_bieder_-_quadon_medium-webfont.eot");
+  src: url("fonts/rene_bieder_-_quadon_medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_quadon_medium-webfont.woff") format("woff"), url("fonts/rene_bieder_-_quadon_medium-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_quadon_medium-webfont.svg#quadonmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'quadonthin';
+  src: url("fonts/rene_bieder_-_quadon_thin-webfont.eot");
+  src: url("fonts/rene_bieder_-_quadon_thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_quadon_thin-webfont.woff") format("woff"), url("fonts/rene_bieder_-_quadon_thin-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_quadon_thin-webfont.svg#quadonthin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentona_boldbold_italic';
+  src: url("fonts/rene_bieder_-_gentona_bold_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_bold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_bold_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_bold_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_bold_italic-webfont.svg#gentona_boldbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentona_bookbold';
+  src: url("fonts/rene_bieder_-_gentona_bold-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_bold-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_bold-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_bold-webfont.svg#gentona_bookbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonabook_italic';
+  src: url("fonts/rene_bieder_-_gentona_book_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_book_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_book_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_book_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_book_italic-webfont.svg#gentonabook_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonabook';
+  src: url("fonts/rene_bieder_-_gentona_book-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_book-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_book-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_book-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_book-webfont.svg#gentonabook") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaextrabold_italic';
+  src: url("fonts/rene_bieder_-_gentona_extrabold_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_extrabold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_extrabold_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_extrabold_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_extrabold_italic-webfont.svg#gentonaextrabold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaextrabold';
+  src: url("fonts/rene_bieder_-_gentona_extrabold-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_extrabold-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_extrabold-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_extrabold-webfont.svg#gentonaextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaextralight_italic';
+  src: url("fonts/rene_bieder_-_gentona_extralight_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_extralight_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_extralight_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_extralight_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_extralight_italic-webfont.svg#gentonaextralight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaextralight';
+  src: url("fonts/rene_bieder_-_gentona_extralight-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_extralight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_extralight-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_extralight-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_extralight-webfont.svg#gentonaextralight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaheavy_italic';
+  src: url("fonts/rene_bieder_-_gentona_heavy_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_heavy_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_heavy_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_heavy_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_heavy_italic-webfont.svg#gentonaheavy_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonaheavy';
+  src: url("fonts/rene_bieder_-_gentona_heavy-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_heavy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_heavy-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_heavy-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_heavy-webfont.svg#gentonaheavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonalight_italic';
+  src: url("fonts/rene_bieder_-_gentona_light_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_light_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_light_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_light_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_light_italic-webfont.svg#gentonalight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonalight';
+  src: url("fonts/rene_bieder_-_gentona_light-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_light-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_light-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_light-webfont.svg#gentonalight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonamedium_italic';
+  src: url("fonts/rene_bieder_-_gentona_medium_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_medium_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_medium_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_medium_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_medium_italic-webfont.svg#gentonamedium_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonamedium';
+  src: url("fonts/rene_bieder_-_gentona_medium-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_medium-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_medium-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_medium-webfont.svg#gentonamedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonasemibold_italic';
+  src: url("fonts/rene_bieder_-_gentona_semibold_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_semibold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_semibold_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_semibold_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_semibold_italic-webfont.svg#gentonasemibold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonasemibold';
+  src: url("fonts/rene_bieder_-_gentona_semibold-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_semibold-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_semibold-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_semibold-webfont.svg#gentonasemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonathin_italic';
+  src: url("fonts/rene_bieder_-_gentona_thin_italic-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_thin_italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_thin_italic-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_thin_italic-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_thin_italic-webfont.svg#gentonathin_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gentonathin';
+  src: url("fonts/rene_bieder_-_gentona_thin-webfont.eot");
+  src: url("fonts/rene_bieder_-_gentona_thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/rene_bieder_-_gentona_thin-webfont.woff") format("woff"), url("fonts/rene_bieder_-_gentona_thin-webfont.ttf") format("truetype"), url("fonts/rene_bieder_-_gentona_thin-webfont.svg#gentonathin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */
