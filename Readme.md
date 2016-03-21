@@ -23,6 +23,7 @@ Installation
 
 Changelog
 ---------
+- 1.0.1 - Adds title tag information
 - 1.0.0 - Initial release
 - 0.0.0 - Initial commit
 
