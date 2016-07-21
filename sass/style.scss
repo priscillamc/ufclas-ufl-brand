@@ -1,10 +1,10 @@
 /*!
 Theme Name: UF CLAS UFL Brand
-Theme URI: http://clas.ufl.edu/
+Theme URI: http://clas.ufl.edu/comms
 Author: Al Kirby
-Author URI: http://clas.ufl.edu/
+Author URI: http://clas.ufl.edu/comms
 Description: WordPress child theme, based on the 2016 University of Florida Brand design. Maintained by CLAS IT.
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ufclas-ufl-brand
@@ -30,4 +30,22 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*--------------------------------------------------------------
  Custom CSS - See Appearance > Custom CSS
 --------------------------------------------------------------*/
-// @import "custom";
+@import "custom";
+
+body {
+	background: #faf8f1 url("images/bg-texture.png") !important;
+	
+	#wpadminbar a {
+		color: #ccc !important;
+	}
+	#wopadminbar a:hover {
+		color: #eee !important;
+	}
+}
+.admin-bar .navigation {
+	top: 46px !important;
+	
+	@media screen and (min-width: 800px){
+		top: 32px !important;
+	}
+}
