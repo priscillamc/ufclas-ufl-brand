@@ -1,8 +1,5 @@
-UF CLAS UFL Brand
-=================
-
-Description
------------
+UFCLAS UFL Brand
+================
 
 WordPress child theme, based on the 2016 University of Florida Brand design. Maintained by CLAS IT.
 
@@ -22,16 +19,19 @@ Installation
 
 Changelog
 ---------
-- 1.0.2 - Updates custom styles
-- 1.0.1 - Fixes empty homepage title, fixes missing background, adds sitename to other titles (production)
-- 1.0.0 - Initial release
-- 0.0.0 - Initial commit
+### 1.0.3
+- Updates theme name and readme
 
+### 1.0.2 
+- Updates custom styles
 
-To-Do List
-----------
+### 1.0.1 
+- Fixes empty homepage title, fixes missing background, adds sitename to other titles (production)
 
+### 1.0.0 
+- Initial release
 
-Notes
-==============================
+To-Do
+-----
+
 
